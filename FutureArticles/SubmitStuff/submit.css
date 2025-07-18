@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Comicsans;
+    src: url(../fonts/ComicSansMS3.ttf);
+}
+*{
+    font-family: Comicsans;
+}
+body{
+background-color: #161616;
+margin: auto;
+}
+#HEADLINES{
+    color: rgb(255, 255, 255);
+    font-family: Comicsans;
+    font-size: 50px;
+    margin-left: 100px; margin-right: 100px;
+    text-align: center;
+    box-shadow: 1 1 3; color: black;
+    border-radius: 30px;
+}
+#headlinetext{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Comicsans;
+    margin-left: 20%; margin-right: 20%;
+}
+.date{
+    font-size: 20px;
+    color: #ffffffa4;
+    margin-bottom: 0%;
+}
+.author{
+    font-size: 20px;
+    color: #ffb7ed;
+    text-decoration: none; 
+    margin-bottom: 20px;
+
+}
+.author:hover{
+    font-size: 20px;
+    color: #f5ff6e; 
+    font-weight: bold; 
+    text-decoration: underline;
+}
+#image{
+    text-align: center;
+    color: white;
+}
+.text{
+    font-size: 30px;
+    color: white;
+    font-family: Comicsans;
+    margin-left: 20%; margin-right: 20%;
+    display: block;
+}
+.text:hover{
+    color: #f5ff6e;
+    text-decoration: underline;
+}
+.title2{
+    color: rgb(255, 255, 255);
+    font-family: Comicsans;
+    margin-left: 100px; margin-right: 100px;
+    text-align: center;
+    border-radius: 30px; 
+    font-size: 45px;
+}
+.title{
+    color: rgb(0, 0, 0);
+    font-family: Comicsans;
+    margin-left: 100px; margin-right: 100px;
+    text-align: center;
+    border-radius: 30px;
+}
+.titleborder{
+    box-shadow: 0px 2px 5px; color: black;
+    background-color: rgb(219, 176, 219);
+}
+.news-card {
+  display: block;
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+  color: inherit;
+}
+.news-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 2px solid rgb(202, 95, 197);
+}
+.news-link{
+    text-decoration: none;
+    display: block;
+}
+
+
+#main-title{
+    width: 150px;
+    height: 100px;
+}
+#main-title:hover{
+    border: 1px solid rgb(255, 252, 75);
+}
+#submit{
+    color: rgb(255, 140, 249);
+    font-family: Comicsans;
+    font-size: 30px;
+    text-decoration: none;
+}
+#submit:hover{
+    color: rgb(255, 253, 126);
+    text-decoration: underline;
+}
+#uppernav {
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    height: 100px;
+    width: 100%; /* Make it full width */
+    font-size: 30px;
+    z-index: 1000; /* Keeps it above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#open{
+    font-family: Comicsans;
+    color: rgb(255, 255, 255);
+    float: right;
+    
+}
+
+.textdead{
+    font-size: 30px;
+    color: white;
+    font-family: Comicsans;
+    margin-left: 20%; margin-right: 20%;
+}
+
+#submitbox{
+    display: flex;
+    width: 60%;
+    height: auto;
+    position: relative;
+    background-color: #000000;
+    top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#submitlink{
+    color: rgb(243, 115, 255);
+    font-size: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-decoration: none;
+}
+#submitlink:hover{
+    color: rgb(255, 240, 25);
+    text-decoration: underline;
+}
+
+#gohome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  padding: 5px 20px;
+  width: 50%;
+  margin: 40px auto;
+  margin-top: 100px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 3px solid transparent;
+  overflow: hidden;
+}
+
+#gohome:hover {
+  border-color: rgb(255, 252, 75);
+}
+
+#hometex {
+  color: white;
+  font-size: 40px;
+  margin: 0 10px 0 0;
+  line-height: 1;
+  margin-right: auto;
+}
+
+#hometex2 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.2;
+  margin-right: auto;
+}

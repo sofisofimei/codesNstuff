@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="profile.css">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
     <title>Sophia Mei's Profile</title>
+
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
+    
 </head>
 <body>
 
@@ -13,7 +20,7 @@
        <p style="color: white;">|</p>
     <a href="../FutureArticles.html"><img src="../images/logo.png" alt="logo" id="main-title"></a> 
    <p style="color: white;">|</p>
-    <a href="" id="submit">Submit Future News</a>
+    <a href="../SubmitStuff/submit.html" id="submit">Submit Future News</a>
        <p style="color: white;">|</p>
     </div>
 
@@ -32,10 +39,10 @@
   <a href="" id="follow">Subscribe</a>
 </div>
 
-<a href="../FutureArticles.html" id="gohome">
+<button onclick="goBack()" id="gohome">
   <p id="hometex">&lt;</p>
-  <p id="hometex2">Go back to HOME.</p>
-</a>
+  <p id="hometex2">Go Back</p>
+</button>
 
 </body>
 </html>
