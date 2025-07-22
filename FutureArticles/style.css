@@ -100,39 +100,231 @@ margin: auto;
     display: block;
 }
 
+/* UPPERNAV */
 
-#main-title{
-    width: 150px;
-    height: 100px;
-}
-#main-title:hover{
-    border: 1px solid rgb(255, 252, 75);
-}
-#submit{
-    color: rgb(255, 140, 249);
-    font-family: Comicsans;
-    font-size: 30px;
-    text-decoration: none;
-}
-#submit:hover{
-    color: rgb(255, 253, 126);
-    text-decoration: underline;
-}
 #uppernav {
     position: sticky;
     top: 0;
     background-color: #000000;
     height: 100px;
-    width: 100%; /* Make it full width */
+    width: 100%; 
     font-size: 30px;
-    z-index: 1000; /* Keeps it above other elements */
+    z-index: 1000; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding: 0px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+
+
+#squarelogo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+
+}
+#namelogo{
+    height: 75px;
+}
+
+/* ASIDE SIDEBAR */
+
+#aside{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: #202020;
+    padding: 20px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.226);
+    overflow-y: auto; /* scrolls if the sidebar itself is too tall */
+    z-index: 999;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 40px;
+  width: 100%
+}
+
+.sidebarsec {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 0; 
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.sidebarsec:hover {
+    transform: scale(1.05);
+    background-color: #7070703b;
+}
+
+.sidebarsec p {
+    color: rgb(255, 120, 248);
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.sidebarsec img {
+  width: 50px;
+  height: 50px;
+
+}
+
+/* Hovers of sidebar */
+#s1:hover img {
+    content: url(images/icons/home/home.gif);
+}
+#s2:hover img {
+    content: url(images/icons/search/search.gif);
+}
+#s3:hover img {
+    content: url(images/icons/about/about.gif);
+}
+#s4:hover img {
+    content: url(images/icons/profile/profile.gif);
+}
+
+#s1:hover p {
+    color:#f5ff6e;
+}
+#s2:hover p {
+    color:#f5ff6e;
+}
+#s3:hover p {
+    color:#f5ff6e;
+}
+#s4:hover p {
+    color:#f5ff6e;
+}
+
+
+/* Navicons */
+
+#navicons {
+    display: flex;
+    align-items: center;
+    margin-left: 15%; /* Pushes the icons to the right */
+    margin-right: 5%;
+    gap: 20px; /* Space between icons */
+}
+
+#burgericon{
+    width: 75px;
+    height: 75px;
+    margin-left: 0px;
+}
+#burgericon:hover{
+    content: url(images/icons/burger/burger.gif);
+}
+#burgericon:active{
+    content: url(images/icons/pop/pop.gif);
+}
+#burgerbutton{
+    background-color: #2e2e2e;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0;
+}
+
+#homelogo{
+    width: 65px;
+    height: 65px;
+    margin-left: 70px;
+    padding: 5px;
+}
+#homelogo:hover{
+    content: url(images/icons/home/home.gif);
+    background-color: #7070703b;
+    border-radius: 15px;
+    background-size: 100px 100px;
+}
+#homelogo:active{
+    content: url(images/icons/pop/pop.gif);
+}
+
+#searchicon{
+    width: 55px;
+    height: 55px;
+    margin-left: 70px;
+    padding: 10px;
+}
+#searchicon:hover{
+    content: url(images/icons/search/search.gif);
+    background-color: #7070703b;
+    border-radius: 15px;
+    background-size: 100px 100px;
+}
+#searchicon:active{
+    content: url(images/icons/pop/pop.gif);
+}
+
+#abouticon{
+    width: 55px;
+    height: 55px;
+    margin-left: 70px;
+    padding: 10px;
+}
+#abouticon:hover{
+    content: url(images/icons/about/about.gif);
+    background-color: #7070703b;
+    border-radius: 15px;
+    background-size: 100px 100px;
+}
+#abouticon:active{
+    content: url(images/icons/pop/pop.gif);
+}
+
+#profileicon{
+    width: 55px;
+    height: 55px;
+    margin-left: 70px;
+    padding: 10px;
+}
+#profileicon:hover{
+    content: url(images/icons/profile/profile.gif);
+    background-color: #7070703b;
+    border-radius: 15px;
+    background-size: 100px 100px;
+}
+#profileicon:active{
+    content: url(images/icons/pop/pop.gif);
+}
+
+#submit{
+    color: rgb(255, 140, 249);
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 80px;
+}
+#submit:hover{
+    color: rgb(255, 253, 126);
+    text-decoration: underline;
+}
+/* aside end */
+
+
+/* MAIN */
+
+#main{
+  margin-left: 25%;
+}
+
 #open{
-    font-family: Comicsans;
     color: rgb(255, 255, 255);
     float: right;
     
@@ -143,6 +335,15 @@ margin: auto;
     color: white;
     font-family: Comicsans;
     margin-left: 20%; margin-right: 20%;
+}
+.textdead a{
+    color: rgb(255, 140, 249);
+    font-size: 30px;
+    text-decoration: none;
+}
+.textdead a:hover{
+    color: rgb(255, 253, 126);
+    text-decoration: underline;
 }
 
 #Pagination{
@@ -170,4 +371,29 @@ margin: auto;
 }
 
 
-
+#maintitlestuff{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 30px;
+    justify-content: center;
+    background-color: #202020;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#maintitlestuff img{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 300px;
+}
+#maintitlestuff p{
+    margin-top: 50px;
+    width: 400px;
+}

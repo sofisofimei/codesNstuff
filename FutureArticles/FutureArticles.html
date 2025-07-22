@@ -4,22 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <title>Future Article</title>
+    <link rel="icon" href="images/squarelogo.png" type="image/x-icon">
+    <title>Future Articles</title>
 </head>
 <body>
 
   <!-- Uppernav -->
 
 <div id="uppernav">
-       <p style="color: white;">|</p>
-    <a href="FutureArticles.html"><img src="images/logo.png" alt="logo" id="main-title"></a> 
-   <p style="color: white;">|</p>
+    <button id="burgerbutton"><img id="burgericon" src="images/icons/burger/burger.png" alt=""></button>
+    <a href="FutureArticles.html"><img id="squarelogo" src="images/squarelogo.png" alt="home"></a> 
+    <a href="FutureArticles.html"><img id="namelogo" src="images/FutureArticlesMain.png" alt="home"></a> 
+  <div id="navicons">
+    <a href="FutureArticles.html"><img id="homelogo" src="images/icons/home/home.png" alt="home"></a> 
+    <a href=""><img id="searchicon" src="images/icons/search/search.png" alt="search"></a>
+    <a href=""><img id="abouticon" src="images/icons/about/about.png" alt="about"></a>
+    <a href=""><img id="profileicon" src="images/icons/profile/profile.png" alt="profile"></a>
+  </div>
     <a href="SubmitStuff/submit.html" id="submit">Submit Future News</a>
-       <p style="color: white;">|</p>
 </div>
 
-<hr>
+<!-- Aside --> 
+ 
+<aside id="aside">
+
+  <nav class="sidebar-nav"> <br><br><br><br><br>
+    <a id="s1" href="FutureArticles.html" class="sidebarsec">
+      <img src="images/icons/home/home.png" alt="Home">
+      <p>HOME</p>
+    </a>
+    <a id="s2" href="#" class="sidebarsec">
+      <img src="images/icons/search/search.png" alt="Search">
+      <p>SEARCH</p>
+    </a>
+    <a id="s3" href="#" class="sidebarsec">
+      <img src="images/icons/about/about.png" alt="About">
+      <p>ABOUT</p>
+    </a>
+    <a id="s4" href="#" class="sidebarsec">
+      <img src="images/icons/profile/profile.png" alt="Profile">
+        <p>PROFILE</p>
+    </a>
+  </nav>
+
+</aside>
+
+
+<!-- Main Title --> 
+
+ <main id="main">
+
+<div id="maintitlestuff">
+<img src="images/FutureArticles.png" alt="futurearticles">
+<p>A news site for your own fake future events.</p>
+</div>
+
+<!-- Main Content --> 
+
 <div class="titleborder">
   <h1 id="HEADLINES">FUTURE HEADLINES</h1>
 </div>
@@ -35,7 +76,7 @@
 
 <!-- TITLE -->
 
-<br><hr>
+<br>
 <div class="titleborder">
   <h1 class="title">Future Daily News</h1>
 </div>
@@ -59,7 +100,7 @@
 <a class="author" href="AuthorProfiles/Sophia_Mei.html">Author: Sophia Mei</a>
 </div></a>
 
-<br><hr>
+<br>
 
 <!-- TITLE -->
 
@@ -100,6 +141,7 @@
 </div></a>
 
 
+
 <br><br>
 <!-- Pagination -->
 
@@ -110,10 +152,11 @@
 <a href="">></a>
 </div>
 
+<br><br><br><br><br><br><br><br><hr><br> <!-- alot of br's, just ignore it hehe -->
 
-<br><br><br><br><br><br><br><br><hr><br> <!-- alot of br's -->
+<p class="textdead">You have reached a dead end... <a href="SubmitStuff/submit.html">Submit</a> your own!</p>
 
-<p class="textdead">You have reached a dead end... <a href="SubmitStuff/submit.html" id="submit">Submit</a> your own!</p>
+</main>
 
 </body>
 </html>
