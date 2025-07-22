@@ -144,3 +144,30 @@ margin: auto;
     font-family: Comicsans;
     margin-left: 20%; margin-right: 20%;
 }
+
+#Pagination{
+    width:fit-content;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+    margin: auto;
+}
+#Pagination a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+#Pagination a.active{
+    background-color: #c036c5;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#Pagination a:hover:not(.active){
+    background-color: #84886221;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
